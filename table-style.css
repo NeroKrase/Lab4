@@ -1,0 +1,45 @@
+*{
+    padding: 2px;
+}
+
+.diagram{
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.diagram__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.table_cl{
+    margin-left: 5px;
+}
+.diagram_color{
+    width: 50px;
+    background-color: darkred;
+}
+.alt_text{
+    margin: 0;
+}
+.addPadding{
+    margin-top: 22px;
+}
+#row, #col_ex{
+    display: none;
+}
+
+button, input{
+    background-color: #fff;
+    border: 2px solid crimson;
+    border-radius: 4px;
+    padding: 5px;
+    color: crimson;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+td{
+    text-align: center;
+}

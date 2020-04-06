@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change image</title>
+    <link rel="stylesheet" href="image-style.css">
+</head>
+<body>
+    <form name="myForm" onsubmit="return validate()">
+        <h1 class="main-title">Image properties changing</h1>
+        <img src="img/kaisa.jpg" class="image" alt="" id="image">
+        <h2 class="title-size">Change size:</h2>
+        <label for="input-width" class="label-width">Width</label>
+        <input type="text" id="input-width" name="width">
+        <br>
+        <label for="input-height" class="label-height">Height</label>
+        <input type="text" id="input-height" name="height">
+        <h2 class="title-border">Change border: </h2>
+        <label for="input-border-width" class="label-border-width">Border width</label>
+        <input type="text" id="input-border-width" name="border_width">
+        <br>
+        <label for="input-border-color" class="label-border-color">Border color</label>
+        <input type="text" id="input-border-color" name="border_color">
+        <h2 class="title-text">Additional: </h2>
+        <label for="input-alternate-text" class="label-border-color">Alternate text</label>
+        <input type="text" id="input-alternate-text" name="alternate_text">
+        <br>
+        <button class="btn" type="submit">Apply changes</button>
+    </form>
+    <script src="image-script.js"></script>
+</body>
+</html>
